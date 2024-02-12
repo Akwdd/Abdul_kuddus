@@ -2009,8 +2009,17 @@ content
           box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
   background: linear-gradient(159deg, #2d2d3a 0%, #2b2b35 100%);
 }
+.art-service-icon-box:hover{
+width:105%;
+height:95%;
+background: linear-gradient(159deg, #0b157c 0%, #558244 100%);
+}
+
 .art-service-icon-box .art-service-ib-content {
   padding: 30px;
+}
+.art-service-icon-box .art-service-ib-content:hover{
+	color:green
 }
 .art-service-icon-box .art-service-ib-content .art-service-ib-icon {
   position: absolute;
