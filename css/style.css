@@ -2390,7 +2390,7 @@ background: linear-gradient(159deg, #0b157c 0%, #558244 100%);
 .art-form-field textarea {
   padding-left: 15px;
   padding-top: 15px;
-  height: 150px;
+  height: 300px;
   border-left: solid 50px #20202a;
 }
 .art-form-field textarea.art-active {
@@ -3050,17 +3050,19 @@ margin:auto;
   height: 250px;
 position:center;
   overflow: hidden;
-  
+  margin-left:20px
 }
 .cir_in{
   height: 270px;
   overflow: hidden;
   margin-top: 10px;
+  margin-left:55px
 }
 .cir_right{
   width:25%;
   overflow: hidden;
   height: 270px;
+  margin-left:20px
 }
 .container{
   font-size: 10px;
@@ -3223,8 +3225,26 @@ to{
 
 }
 
-@media (max-width: 230px) {
-  
+@media (max-width: 990px) {
+ .cir_left{
+  height: 250px;
+position:center;
+  overflow: hidden;
+  margin-left:-20px
+}
+.cir_in{
+  height: 270px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-left:5px
+}
+.cir_right{
+  width:25%;
+  overflow: hidden;
+  height: 270px;
+  margin-left:-20px
+}
+} 
 
 }
 @media (max-width: 1600px) {
@@ -3237,41 +3257,14 @@ content (after 1400px)
 
 ------------------------------ */
 .web{
-padding-left:33.33%}
-
-@media (max-width: 250px) {
-  .web{
-	padding-left:33.33%
+padding-left:40px
 }
-}
-@media (max-width: 320px) {
-.web{
-	padding-left:33.33%
-}
+.web1{
+padding-left:20px
 }
 
-@media (max-width: 450px) {
-.web{
-	padding-left:33.33%
-}
-}
-
-@media (max-width: 600px) {
-.web{
-	padding-left:33.33%
-}
-}
-@media (max-width: 780px) {
-	.web{
-	padding-left:33.33%
-}
-}
-@media (max-width: 920px) {
-  .web{
-	padding-left:33.33%
-}
-}
 @media (max-width: 500px) {
+  
 .art-banner .art-banner-overlay .art-banner-photo {
 	width:52%;
 	height:84%;
@@ -3291,5 +3284,19 @@ padding-left:33.33%}
     width: 100%;
     height: 337px;
     background-size: cover;
+}
+
+.cir_left{
+  margin-left:20px
+}
+.cir_in{
+  margin-top: 10px;
+  margin-left:35px
+}
+.cir_right{
+  margin-left:20px
+}
+.art-form-field textarea {
+	height: 201px;
 }
 }
